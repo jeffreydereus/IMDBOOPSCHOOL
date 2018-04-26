@@ -4,5 +4,8 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Jdereus2.0" />
+    <orderEntry type="module" module-name="De vloot" />
+    <orderEntry type="module" module-name="hospital-php" />
   </component>
 </module>

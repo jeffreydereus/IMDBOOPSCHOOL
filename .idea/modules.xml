@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../De vloot/.idea/De vloot.iml" filepath="$PROJECT_DIR$/../De vloot/.idea/De vloot.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/IMDB.iml" filepath="$PROJECT_DIR$/.idea/IMDB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Jdereus2.0/.idea/Jdereus2.0.iml" filepath="$PROJECT_DIR$/../Jdereus2.0/.idea/Jdereus2.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hospital-php/.idea/hospital-php.iml" filepath="$PROJECT_DIR$/../hospital-php/.idea/hospital-php.iml" />
     </modules>
   </component>
 </project>
