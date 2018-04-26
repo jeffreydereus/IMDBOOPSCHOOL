@@ -1,4 +1,5 @@
 <?php
+
 require "pages/Templates/Header.php"; //Get the Header
 
 //Random name Generator
@@ -9,12 +10,22 @@ $name2 = $RNAMES[$Names[2]] . $RNAMES[$Names[3]];
 $name3 = $RNAMES[$Names[4]] . $RNAMES[$Names[5]];
 $name4 = $RNAMES[$Names[6]] . $RNAMES[$Names[7]];
 
+//Create
+createVideo($nr =1, $name='monty', $type='movie', $description='a great movie', $origin='Merica', $rating=3, $duration=60);
+createVideo($nr =2, $name='phyton', $type='serie', $description='a great serie', $origin='India', $rating=4, $duration=43);
+
+function createVideo($nr, $name, $type, $description, $origin, $rating, $duration){
+    $video = array($nr, $name, $type, $description, $origin, $rating, $duration);
+    addVideoToList($video);
+}
+
+function addVideoToList ($video){
+  var_dump($video);
+  $main[$nr-1] = $video;
+  showVideo();
+}
 
 
-    ?>
-
-
-<?php
 
 function showVideo() //Show all Video's (films and series)
 {
